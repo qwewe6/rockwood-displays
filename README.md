@@ -6,12 +6,9 @@ anywhere that serves static files.
 
 ## Before you launch
 
-Two placeholders need your real info — search for them and replace everywhere they appear:
-
-- **Email:** `hello@rockwooddisplays.com` → appears in `index.html`, `product.html`,
-  and as `CONTACT_EMAIL` near the top of `js/main.js`.
-- **Instagram:** `@rockwooddisplays` / `instagram.com/rockwooddisplays` in `index.html`
-  (or remove the line entirely if you'd rather not link it yet).
+Contact info is live: `maxbecker1023@gmail.com` (also set as `CONTACT_EMAIL` near the top
+of `js/main.js`) and the YouTube channel at `youtube.com/@RCxDco`. Update either by
+searching for them the same way if they ever change.
 
 Also worth a look:
 - The first product is named **"The Aaron"** after the origin story — rename it
@@ -39,7 +36,7 @@ Any static host works. Two easy, free options:
 
 ## A note on "Contact to order"
 
-Right now, buying a piece works through email/Instagram — the "Inquire About
+Right now, buying a piece works through email — the "Inquire About
 This Piece" button opens a pre-filled email. No cart, no payment processing,
 no accounts to set up. If you outgrow that later (e.g. want real checkout via
 Stripe), that's a bigger addition — happy to help when you're there.
