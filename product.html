@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rockwood Displays</title>
+<meta name="description" content="A one-of-a-kind, handmade wood-and-stone display obstacle for mini and micro RC crawlers.">
+
+<link rel="icon" href="images/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="logo" href="index.html">ROCK<span>WOOD</span></a>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html#shop">Shop</a></li>
+        <li><a href="index.html#about">About</a></li>
+        <li><a href="index.html#course">Build a Course</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <a class="btn btn-primary nav-cta" href="index.html#shop">Shop the Collection</a>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+  </div>
+</header>
+
+<main class="wrap">
+  <p class="breadcrumb"><a href="index.html#shop">&larr; Back to the Collection</a></p>
+
+  <div class="product-detail" data-product-detail>
+    <!-- rendered by js/main.js from js/products.js, based on ?id= in the URL -->
+    <noscript>Enable JavaScript to view this listing, or visit the collection page for the full product info.</noscript>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap" style="display:flex; flex-wrap:wrap; gap:1rem; justify-content:space-between; width:100%;">
+    <span>&copy; <span id="year"></span> Rockwood Displays. Handmade, one at a time.</span>
+    <span><a href="mailto:hello@rockwooddisplays.com">hello@rockwooddisplays.com</a></span>
+  </div>
+</footer>
+
+<script src="js/products.js"></script>
+<script src="js/main.js"></script>
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
