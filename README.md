@@ -6,7 +6,7 @@ anywhere that serves static files.
 
 ## Before you launch
 
-Contact info is live: `maxbecker1023@gmail.com` (also set as `CONTACT_EMAIL` near the top
+Contact info is live: `rockwooddisplays@gmail.com` (also set as `CONTACT_EMAIL` near the top
 of `js/main.js`) and the YouTube channel at `youtube.com/@RCxDco`. Update either by
 searching for them the same way if they ever change.
 

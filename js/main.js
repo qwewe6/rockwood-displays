@@ -6,7 +6,7 @@
 
 // Update this once you have a real inbox / handle for the business.
 // It's used for every "inquire to purchase" link on product pages.
-const CONTACT_EMAIL = "maxbecker1023@gmail.com";
+const CONTACT_EMAIL = "rockwooddisplays@gmail.com";
 
 document.addEventListener("DOMContentLoaded", () => {
   initHeader();
