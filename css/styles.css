@@ -62,7 +62,7 @@ p { margin: 0 0 1em; }
   font-size: .78rem;
   letter-spacing: .14em;
   text-transform: uppercase;
-  color: var(--walnut);
+  color: var(--walnut-dark);
   font-weight: 600;
   margin-bottom: .9em;
 }
