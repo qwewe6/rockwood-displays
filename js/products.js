@@ -41,7 +41,7 @@ var PRODUCTS = [
       ["Scaffold", "Solid wood, built entirely by hand"],
       ["Lighting", "Integrated, built for low-light display"],
       ["Base", "Non-scratch wood — safe on any surface"],
-      ["Fits", "Mini & micro scale RC crawlers"],
+      ["Fits", "SCX24, FCX24m, FCX24 and comparable 24th scale crawlers"],
       ["Expandable", "Connects to other Rockwood displays with a link set (sold separately)"],
       ["Materials", "Natural only — rock and wood, nothing else"]
     ],
