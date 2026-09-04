@@ -229,7 +229,7 @@ p { margin: 0 0 1em; }
   padding: 3.5rem var(--gutter) 4rem;
   max-width: 780px;
 }
-.hero-content .eyebrow { color: #c7bca3; font-size: 1rem; letter-spacing: .16em; text-shadow: 0 1px 4px rgba(0,0,0,.6); }
+.hero-content .eyebrow { color: #c7bca3; font-size: 1rem; letter-spacing: .16em; }
 .hero h1 {
   color: var(--cream);
   font-size: clamp(2.4rem, 5.5vw, 4rem);
