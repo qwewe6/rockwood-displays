@@ -42,7 +42,7 @@ var PRODUCTS = [
       ["Lighting", "Integrated, built for low-light display"],
       ["Base", "Non-scratch wood — safe on any surface"],
       ["Fits", "SCX24, FCX24m, FCX24 and comparable 24th scale crawlers"],
-      ["Care", "A clean terry cloth (or old, cut up, t-shirt piece)"],
+      ["Care", "A clean terry cloth (or old, cut up, t-shirt)"],
       ["Battery", "Coin, CR 2032"]
     ],
 
