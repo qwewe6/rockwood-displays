@@ -292,50 +292,16 @@ section { padding: 5.5rem 0; }
 
 /* story timeline */
 .story-timeline {
-  position: relative;
   margin-top: 2rem;
   display: flex;
   flex-direction: column;
-  gap: 2.4rem;
-}
-.story-step {
-  position: relative;
-  padding-left: 3.6rem;
-}
-.story-timeline::before {
-  content: "";
-  position: absolute;
-  top: 26px;
-  bottom: 26px;
-  left: 25px;
-  width: 2px;
-  background: var(--line);
-}
-.story-step-marker {
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background: var(--walnut);
-  box-shadow: 0 0 0 6px var(--cream);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 2;
-}
-.story-step-marker span {
-  font-family: var(--font-display);
-  font-weight: 700;
-  color: var(--cream);
-  font-size: .95rem;
+  gap: 1.1rem;
 }
 .story-step-panel {
   position: relative;
   border-radius: 20px;
   overflow: hidden;
-  min-height: 320px;
+  min-height: 62vh;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -352,31 +318,42 @@ section { padding: 5.5rem 0; }
   content: "";
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, rgba(36,29,23,0) 25%, rgba(36,29,23,.55) 65%, rgba(36,29,23,.9) 100%);
+  background: linear-gradient(180deg, rgba(20,15,10,0) 45%, rgba(20,15,10,.28) 70%, rgba(20,15,10,.68) 100%);
 }
 .story-step-text {
   position: relative;
   z-index: 1;
-  padding: 2.2rem clamp(1.2rem, 4vw, 2.4rem) 1.9rem;
+  padding: 1.8rem clamp(1.2rem, 4vw, 2.4rem) 1.8rem;
+  max-width: 640px;
 }
 .story-step-label {
+  display: flex;
+  align-items: baseline;
+  gap: .6em;
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--cream);
+  margin: 0 0 .5em;
+}
+.story-step-num {
   font-family: var(--font-body);
   font-size: .78rem;
-  letter-spacing: .14em;
-  text-transform: uppercase;
+  letter-spacing: .12em;
   font-weight: 600;
   color: var(--stone-light);
-  margin: 0 0 .6em;
+  opacity: .85;
 }
 .story-step-text p:last-child {
   color: var(--cream);
-  font-size: 1.02rem;
-  line-height: 1.65;
-  max-width: 62ch;
+  font-size: 1rem;
+  line-height: 1.6;
+  max-width: 58ch;
   margin: 0;
+  text-shadow: 0 1px 12px rgba(0,0,0,.25);
 }
 @media (min-width: 700px) {
-  .story-step-panel { min-height: 380px; }
+  .story-step-panel { min-height: 74vh; }
 }
 
 .story-sketches--single {
