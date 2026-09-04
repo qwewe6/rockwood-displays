@@ -125,9 +125,6 @@ function renderProductDetail() {
         ${(product.badges || []).map((b) => `<span class="pill">${escapeHTML(b)}</span>`).join("")}
       </div>
       <h1>${escapeHTML(product.name)}</h1>
-      <p class="price">${escapeHTML(product.price)}${
-    product.availability ? ` &middot; <span style="color:var(--ink-soft); font-weight:400;">${escapeHTML(product.availability)}</span>` : ""
-  }</p>
 
       <div class="desc">
         ${(product.description || []).map((para) => `<p>${escapeHTML(para)}</p>`).join("")}
