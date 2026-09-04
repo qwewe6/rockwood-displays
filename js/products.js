@@ -29,7 +29,6 @@ var PRODUCTS = [
     name: "The Aaron",
     tagline: "The piece that started it all.",
     price: "Inquire for pricing",
-    availability: "One of a kind — once it's gone, it's gone.",
     badges: ["One of a kind", "Handmade"],
 
     description: [
@@ -53,7 +52,8 @@ var PRODUCTS = [
       "images/products/the-aaron/the-aaron-02.jpg",
       "images/products/the-aaron/the-aaron-03.jpg",
       "images/products/the-aaron/the-aaron-04.jpg",
-      "images/products/the-aaron/the-aaron-05.jpg"
+      "images/products/the-aaron/the-aaron-05.jpg",
+      "images/products/the-aaron/the-aaron-06.jpg"
     ],
     thumb: "images/products/the-aaron/the-aaron-01-sm.jpg"
   }
@@ -65,7 +65,6 @@ var PRODUCTS = [
     name: "The Summit",
     tagline: "A steeper climb, built for showing off.",
     price: "Inquire for pricing",
-    availability: "One of a kind — once it's gone, it's gone.",
     badges: ["One of a kind", "Handmade"],
     description: [
       "Describe this piece here — a sentence or two on the stone, the build, what makes it different from the others."
