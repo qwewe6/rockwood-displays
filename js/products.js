@@ -51,7 +51,9 @@ var PRODUCTS = [
     images: [
       "images/products/the-aaron/the-aaron-01.jpg",
       "images/products/the-aaron/the-aaron-02.jpg",
-      "images/products/the-aaron/the-aaron-03.jpg"
+      "images/products/the-aaron/the-aaron-03.jpg",
+      "images/products/the-aaron/the-aaron-04.jpg",
+      "images/products/the-aaron/the-aaron-05.jpg"
     ],
     thumb: "images/products/the-aaron/the-aaron-01-sm.jpg"
   }
