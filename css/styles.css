@@ -620,7 +620,8 @@ section { padding: 5.5rem 0; }
 .specs .row dt { color: var(--stone); font-weight: 500; }
 .specs .row dd { margin: 0; text-align: right; color: var(--ink-soft); max-width: 60%; }
 
-.product-actions { display: flex; gap: 1rem; flex-wrap: wrap; margin-top: .5rem; }
+.product-actions { display: flex; gap: 1rem; flex-wrap: wrap; margin: .5rem 0 3rem; }
+main.wrap { padding-bottom: 1.5rem; }
 
 .not-found {
   padding: 6rem 0;
